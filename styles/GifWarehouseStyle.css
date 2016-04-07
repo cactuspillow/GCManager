@@ -1,0 +1,135 @@
+.flexBoxStyle{
+
+	/*使用flex布局*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+
+	/*新的元素可换行显示，不加此代码会挤在一行*/
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+}
+
+.gifItem {
+	float: left;
+	width: 240px;
+	height: auto;
+	margin: 4px;
+	background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .04), 0 3px 30px -2px rgba(0, 0, 0, .1), 0 1px 3px 0 rgba(0, 0, 0, .12)
+}
+
+.imgAndBtnsArea {
+	width: 100%;
+	position: relative;
+}
+
+.gifPicture {
+	height: 135px;
+	width: 100%;
+	background-image: url("../img/img-patten.jpg");
+	background-size: 100% 100%;
+	background-repeat: repeat;
+}
+.statusNotice {
+	position: absolute;
+	padding: 5px;
+	top: 5px;
+	right: 5px;
+	float: right;
+	width: auto;
+	height: auto;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.4);
+}
+.statusNoticeBlockStyle{
+	background-color: rgba(108,1,13,0.4);
+
+}
+
+.statusNotice p {
+	margin: 0;
+	font-size: 8px;
+	text-align: center;
+	color: #fff;
+}
+.gifPicture img{
+	width: auto;
+	max-height: 135px;
+	margin: 0 auto;
+}
+.gifPicture img:hover {
+	margin-top: -55px;
+	width: auto;
+	height: 200px;
+	max-height: 300px;
+	z-index: 100;
+}
+.buttonArea {
+	background-color: #E6F4ED;
+	margin: 0;
+	padding: 4px 2.5%;
+	height: 26px;
+	width: auto;
+}
+.buttonArea button {
+	margin: 0 3px;
+	padding: 5px 0 5px 8px;
+	width: 70px;
+	border-radius: 6px;
+
+	/* 去除btn自带的样式 */
+	background: #fff;
+	box-shadow: none;
+	outline: none;
+	border: none;
+}
+
+.buttonArea button:hover {
+	background: #D0EFE1;
+}
+
+
+.uncheckedStyle {
+	color: #ccc;
+}
+.checkPassedStyle {
+	color: #01BF74;
+}
+
+.checkBlockStyle {
+	color: #BF1A47;
+}
+
+.buttonName {
+	float: left;
+	text-align: center;
+	margin-top: 1px;
+	width: 44px;
+}
+
+.gif-info {
+	height: auto;
+	padding: 8px 10px 10px 14px;
+}
+
+.gif-info li {
+	list-style: none;
+  	padding: 0;
+	margin:4px 0;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #93A3A7;
+}
+
+.gifInfoDetail {
+  	padding: 2px;
+	margin:2px 0 6px 0;
+	font-size: 10px;
+	font-weight: normal;
+	color: #6B6F6E;
+}

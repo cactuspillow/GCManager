@@ -1,0 +1,53 @@
+html,body{
+	font-family: 'mini-standard-yuan', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #ECF0F5;
+
+}
+
+body.styleDisableDefaultAction
+{
+    -webkit-touch-callout:none ;
+    -webkit-user-select:none ;
+    unselectable: IE/Opera, 
+	-moz-user-select: FireFox, 
+	onselectstart: IE/Safari, 
+	-webkit-user-select:Chrome
+}
+
+.container {
+	margin: 20px 25px;
+	height: calc(100% - 40px);
+	width: calc(100% - 50px);
+	/* background-color: #554CDE; */
+}
+
+main {
+	/*container样式*/
+	float: left;
+	margin-top: 6px;
+	width: 100%;
+}
+
+
+
+.materialIcons {
+	margin-top: 3px;
+	font-size: 12px;
+	font-family: 'googleicon';
+	font-style: normal;
+}
+
+
+@font-face {
+ font-family: "googleicon";
+ src: url("/resources/fonts/googleicon.eot");
+ src: local('fontName Regular'),
+              local('fontName'),
+              url('fontName.woff') format('woff'),
+              url('fontName.ttf') format('truetype'),
+              url('fontName.svg#fontName') format('svg');
+} 
